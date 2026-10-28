@@ -3,8 +3,8 @@ package matching
 import (
 	"strings"
 
-	"github.com/nbutton23/zxcvbn-go/entropy"
-	"github.com/nbutton23/zxcvbn-go/match"
+	"go.lucor.dev/zxcvbn/entropy"
+	"go.lucor.dev/zxcvbn/match"
 )
 
 func buildDictMatcher(dictName string, rankedDict map[string]int) func(password string) []match.Match {

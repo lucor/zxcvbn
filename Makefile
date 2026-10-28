@@ -1,4 +1,4 @@
-PKG_LIST =  $$( go list ./...  | grep -v /vendor/ | grep -v "zxcvbn-go/data" )
+PKG_LIST =  $$( go list ./...  | grep -v /vendor/ | grep -v "go.lucor.dev/zxcvbn/data" )
 
 .DEFAULT_GOAL := help
 

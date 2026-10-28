@@ -3,9 +3,9 @@ package matching
 import (
 	"strings"
 
-	"github.com/nbutton23/zxcvbn-go/adjacency"
-	"github.com/nbutton23/zxcvbn-go/entropy"
-	"github.com/nbutton23/zxcvbn-go/match"
+	"go.lucor.dev/zxcvbn/adjacency"
+	"go.lucor.dev/zxcvbn/entropy"
+	"go.lucor.dev/zxcvbn/match"
 )
 
 const spatialMatcherName = "SPATIAL"

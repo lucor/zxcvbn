@@ -1,7 +1,7 @@
 package fuzz
 
 import (
-	"github.com/nbutton23/zxcvbn-go"
+	"go.lucor.dev/zxcvbn"
 )
 
 // Fuzz is used to run https://github.com/dvyukov/go-fuzz

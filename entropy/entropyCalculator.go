@@ -1,9 +1,9 @@
 package entropy
 
 import (
-	"github.com/nbutton23/zxcvbn-go/adjacency"
-	"github.com/nbutton23/zxcvbn-go/match"
-	"github.com/nbutton23/zxcvbn-go/utils/math"
+	"go.lucor.dev/zxcvbn/adjacency"
+	"go.lucor.dev/zxcvbn/match"
+	"go.lucor.dev/zxcvbn/utils/math"
 	"math"
 	"regexp"
 	"unicode"

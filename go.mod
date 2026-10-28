@@ -1,4 +1,4 @@
-module github.com/nbutton23/zxcvbn-go
+module go.lucor.dev/zxcvbn
 
 go 1.14
 
